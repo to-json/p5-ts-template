@@ -1,0 +1,17 @@
+{
+  "name": "p5-ts-template",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "run-p start-compile start-run",
+    "start-compile": "tsc --watch",
+    "start-run": "browser-sync start --server -w"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@types/p5": ">=1.7.6",
+    "browser-sync": ">=3.0.4",
+    "npm-run-all": ">=4.1.5",
+    "typescript": ">=5.8.3"
+  }
+}
